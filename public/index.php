@@ -8,9 +8,9 @@ require_once BASE_PATH . '/../vendor/autoload.php';
 $request = Request::create();
 // dd($request);
 
-$content = "hello, world!";
+$kernel = new \PixelFix\Framework\Http\Kernel();
 
-$response = new Response($content);
+$response = $kernel->handle($request);
 
 $response->send();
 

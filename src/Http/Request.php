@@ -32,6 +32,7 @@ class Request
 		return static::$instance;
 	}
 
+
 	public function getMethod(): string
 	{
 		return $this->server['REQUEST_METHOD'];

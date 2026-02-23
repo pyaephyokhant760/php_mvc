@@ -12,5 +12,6 @@ $kernel = new \PixelFix\Framework\Http\Kernel();
 
 $response = $kernel->handle($request);
 
+
 $response->send();
 

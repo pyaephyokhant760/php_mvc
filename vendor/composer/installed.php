@@ -3,7 +3,7 @@
         'name' => 'swann/framework',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '5fb8a810984d63c8b2c7abe05985037712d8c99e',
+        'reference' => '16a5f446f50c1d31b95d69a1f76b23fbd5d5ea5b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'swann/framework' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '5fb8a810984d63c8b2c7abe05985037712d8c99e',
+            'reference' => '16a5f446f50c1d31b95d69a1f76b23fbd5d5ea5b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
